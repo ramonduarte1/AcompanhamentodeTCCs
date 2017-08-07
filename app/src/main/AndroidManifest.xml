@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uespi.tcc.ramon.duarte.com.acompanhamentodetccs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AcessarSistema"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CoordenadorCurso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CadastroMatricula" />
+        <activity
+            android:name=".OrientadorActivity"
+            android:label="@string/title_activity_orientador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoActivity"
+            android:label="@string/title_activity_aluno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfCoordenador"
+            android:label="@string/title_activity_coordenador_discipina"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CadastrarSenha"
+            android:label="@string/cadastro_usuario">
+
+        </activity>
+    </application>
+
+</manifest>

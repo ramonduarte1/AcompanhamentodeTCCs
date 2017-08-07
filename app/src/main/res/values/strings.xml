@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">TCCs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Inicio">Inicio</string>
+    <string name="avisos">Avisos</string>
+    <string name="matricula">Matricula</string>
+    <string name="acessar_sistema">Acessar o Sistema</string>
+    <string name="sair_do_sistema">Sair</string>
+    <string name="nome_usuario_nao_logado">Olá Coordenador!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nome_bt_login">Acessar</string>
+    <string name="menu_lateral_criar_grupo">Novo Grupo</string>
+    <string name="menu_lateral_criar_banca">Nova Banca</string>
+    <string name="sobre_app">Sobre</string>
+    <string name="title_activity_area_aluno">AreaAluno</string>
+    <string name="title_activity_area_orientador">AreaOrientador</string>
+    <string name="title_activity_area_coordenador">AreaCoordenador</string>
+    <string name="enviar_arquivo">Enviar Arquivo</string>
+    <string name="calendario">Calendario</string>
+    <string name="andamento_aluno">Andamento</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="entrar_sistema">Entrar</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_home">Início</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="title_noticias">Noticias</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="telefone">Telefone</string>
+    <string name="confirma_senha">Confirmar Senha</string>
+    <string name="esqueceu_a_senha">Esqueceu a Senha?</string>
+    <string name="bt_cadastrar">Cadastrar Senha</string>
+    <string name="coordenador">Coordenador</string>
+    <string name="orientador">Orientador</string>
+    <string name="aluno">Aluno</string>
+    <string name="curso">Curso:</string>
+    <string name="banco_examinadora">Banca Examinadora</string>
+    <string name="emitir_alerta">Emitir Alerta</string>
+    <string name="formular_calendario">Formular Calendário</string>
+    <string name="nome_turma">Turma 2017.1</string>
+    <string name="matricular_aluno">Matricular Aluno</string>
+    <string name="minhas_reunioes">Minhas Reuniões</string>
+    <string name="documentos">Documentos</string>
+    <string name="grupos_tccs">Grupos Tcc\'s</string>
+    <string-array name="spinner_cursos">
+        <item>Ciência da Computação</item>
+        <item>Fisica</item>
+        <item>Matematica</item>
+        <item>Engenharia Eletrica</item>
+        <item>Engenharia Civil</item>
+        <item>Inglês</item>
+        <item>Quimica</item>
+        <item>Direito</item>
+        <item>Geografia</item>
+        <item>Ciência Sociais</item>
+    </string-array>
+    <string-array name="tipo_usuario">
+        <item>Coordenador de Curso</item>
+        <item>Coordenador de Disciplina</item>
+        <item>Orientador</item>
+        <item>Aluno</item>
+    </string-array>
+    <string name="title_activity_orientador">Orientador</string>
+    <string name="title_activity_aluno">AlunoActivity</string>
+    <string name="title_activity_coordenador_discipina">CoordenadorDiscipina</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_cadastrar_aluno">CadastrarAluno</string>
+    <string name="cadastrar_professor">Cadastrar Professor</string>
+    <string name="usuario">Usuário</string>
+    <string name="matricula_padrao">0000000</string>
+    <string name="email">Email</string>
+    <string name="tipo_usuario">Tipo de Usuário:</string>
+    <string name="tipo_cursos">Curso:</string>
+    <string name="periodo">Periodo</string>
+    <string name="cadastrar_senha">Cadastrar Senha</string>
+    <string name="cadastro_usuario">Cadastrar Usuário</string>
+</resources>

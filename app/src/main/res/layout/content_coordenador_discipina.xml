@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="uespi.tcc.ramon.duarte.com.acompanhamentodetccs.ProfCoordenador"
+    tools:showIn="@layout/app_bar_coordenador_discipina">
+    <FrameLayout
+        android:id="@+id/frame_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Inicio"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_minhas_reunioes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minhas_reunioes"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_documentos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/documentos"/>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_calendario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <CalendarView
+            android:id="@+id/calendario_aluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </CalendarView>
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

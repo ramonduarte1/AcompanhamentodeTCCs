@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_action_inicio"
+            android:title="@string/Inicio" />
+        <item
+            android:id="@+id/reunioes"
+            android:icon="@drawable/ic_action_banca"
+            android:title="@string/minhas_reunioes" />
+        <item
+            android:id="@+id/documentos"
+            android:icon="@drawable/ic_action_matricula"
+            android:title="@string/documentos" />
+
+
+    </group>
+
+    <item android:title="Acesso">
+        <menu>
+            <item
+                android:id="@+id/sair_sistema"
+                android:icon="@drawable/ic_action_sair"
+                android:title="@string/sair_do_sistema" />
+            <item
+                android:id="@+id/sobre"
+                android:icon="@drawable/ic_action_sobre"
+                android:title="@string/sobre_app" />
+        </menu>
+    </item>
+
+</menu>
