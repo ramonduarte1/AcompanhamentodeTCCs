@@ -53,7 +53,7 @@ public class IncluirAlunoAdapter extends BaseAdapter {
                 itemSuporte.matricula = (TextView) convertView.findViewById(R.id.matricula_participante);
                 itemSuporte.nome = (TextView) convertView.findViewById(R.id.nome_participante);
                 itemSuporte.email = (TextView) convertView.findViewById(R.id.email_participante);
-                itemSuporte.matricular = (Button) convertView.findViewById(R.id.bt_incluir_participante);
+
 
                 convertView.setTag(itemSuporte);
             } else {
@@ -79,7 +79,7 @@ public class IncluirAlunoAdapter extends BaseAdapter {
             TextView  matricula,
                       nome,
                       email;
-            Button matricular;
+
         }
    }
 
