@@ -31,7 +31,13 @@ public class Usuario{
         funcao,
         logado;
 
-
+    public Usuario(String nome, String email, String periodo, int matricula, int codCurso) {
+        this.nome = nome;
+        this.email = email;
+        this.periodo = periodo;
+        this.matricula = matricula;
+        this.codCurso = codCurso;
+    }
 
     public Usuario(int matricula, String nome, String email, int funcao, String senha, int codCurso, int logado) {
         this.matricula = matricula;
@@ -42,13 +48,7 @@ public class Usuario{
         this.codCurso = codCurso;
         this.logado = logado;
     }
-    public Usuario(int matricula){
-
-    }
-    public Usuario(){
-
-
-    }
+    public Usuario(){}
 
     public void setPeriodo(String periodo) {
         this.periodo = periodo;
@@ -112,6 +112,5 @@ public class Usuario{
     public void setCodCurso(int codCurso) {
         this.codCurso = codCurso;
     }
-
 }
 

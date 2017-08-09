@@ -8,12 +8,20 @@ public class Evento {
     int id;
     String titulo;
     String data;
+    String periodo;
     int curso;
 
     public Evento(int id, String titulo, String data, int curso) {
         this.id = id;
         this.titulo = titulo;
         this.data = data;
+        this.curso = curso;
+    }
+    public Evento(int id, String titulo, String data, String periodo, int curso) {
+        this.id = id;
+        this.titulo = titulo;
+        this.data = data;
+        this.periodo = periodo;
         this.curso = curso;
     }
 
@@ -39,6 +47,14 @@ public class Evento {
 
     public void setData(String data) {
         this.data = data;
+    }
+
+    public String getPeriodo() {
+        return periodo;
+    }
+
+    public void setPeriodo(String periodo) {
+        this.periodo = periodo;
     }
 
     public int getCurso() {

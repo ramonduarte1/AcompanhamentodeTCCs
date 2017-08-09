@@ -22,7 +22,7 @@ public class CadastroMatricula extends AppCompatActivity {
     Button btCancelarCadastro;
     Button btCadastrar;
     EditText editMatricula;
-    Spinner combobox;
+   // Spinner combobox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

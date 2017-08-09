@@ -127,14 +127,16 @@ public class CadastrarSenha extends AppCompatActivity {
         protected String doInBackground(Usuario... user) {
             HttpURLConnection urlConnection = null;
             BufferedReader reader = null;
-
+            String nomeModificado = Utilidades.substituiEspacos(user[0].getNome());
+            System.out.println(nomeModificado);
             String dados = "matricula="+user[0].getMatricula()+
-                           "&nome="+user[0].getNome()+
+                           "&nome="+nomeModificado+ //user[0].getNome()+
                            "&email="+user[0].getEmail()+
                            "&codCurso="+user[0].getCodCurso()+
                            "&tipoUsuario="+user[0].getFuncao()+
                            "&senha="+user[0].getSenha()+
                            "&periodo="+user[0].getPeriodo();
+
             try {
                 URL url = new URL(Host.getHostName() + "/api/cadastroUsuario.php?" + dados);
                 urlConnection = (HttpURLConnection) url.openConnection();

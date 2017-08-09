@@ -6,6 +6,5 @@ package uespi.tcc.ramon.duarte.com.acompanhamentodetccs;
 
 public class Professor extends Usuario {
     public Professor() {
-
     }
 }

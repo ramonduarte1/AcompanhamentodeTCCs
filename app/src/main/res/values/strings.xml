@@ -43,11 +43,10 @@
     <string name="banco_examinadora">Banca Examinadora</string>
     <string name="emitir_alerta">Emitir Alerta</string>
     <string name="formular_calendario">Formular Calendário</string>
-    <string name="nome_turma">Turma 2017.1</string>
-    <string name="matricular_aluno">Matricular Aluno</string>
+    <string name="nome_turma">Turmas de TCCs</string>
+    <string name="matricular_aluno">Incluir Participantes</string>
     <string name="minhas_reunioes">Minhas Reuniões</string>
     <string name="documentos">Documentos</string>
-    <string name="grupos_tccs">Grupos Tcc\'s</string>
     <string-array name="spinner_cursos">
         <item>Ciência da Computação</item>
         <item>Fisica</item>
@@ -80,4 +79,7 @@
     <string name="periodo">Periodo</string>
     <string name="cadastrar_senha">Cadastrar Senha</string>
     <string name="cadastro_usuario">Cadastrar Usuário</string>
+    <string name="projetos_tccs">Projetos de TCCs</string>
+    <string name="incluir_participantes">Incluir Participantes</string>
+    <string name="matricular">Matricular</string>
 </resources>

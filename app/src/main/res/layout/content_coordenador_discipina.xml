@@ -8,7 +8,7 @@
     tools:context="uespi.tcc.ramon.duarte.com.acompanhamentodetccs.ProfCoordenador"
     tools:showIn="@layout/app_bar_coordenador_discipina">
     <FrameLayout
-        android:id="@+id/frame_inicio"
+        android:id="@+id/frame_inicio_cod_discip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
@@ -20,43 +20,71 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frame_minhas_reunioes"
+        android:id="@+id/frame_projetos_tccs_cod_discip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/minhas_reunioes"/>
+            android:text="@string/projetos_tccs"/>
 
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frame_documentos"
+        android:id="@+id/frame_turmas_tccs_cod_discip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/documentos"/>
+            android:text="@string/nome_turma"/>
 
     </FrameLayout>
 
 
     <FrameLayout
-        android:id="@+id/frame_calendario"
+        android:id="@+id/frame_incluir_participante_cod_discip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:visibility="gone">
+        <ListView
+            android:id="@+id/lista_incluir_participantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp">
+        </ListView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_calendario_cod_discip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
-        <CalendarView
-            android:id="@+id/calendario_aluno"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </CalendarView>
+            android:layout_height="wrap_content"
+            android:text="@string/incluir_participantes"/>
 
     </FrameLayout>
 
+    <FrameLayout
+        android:id="@+id/frame_alerta_cod_discip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emitir_alerta"/>
 
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>

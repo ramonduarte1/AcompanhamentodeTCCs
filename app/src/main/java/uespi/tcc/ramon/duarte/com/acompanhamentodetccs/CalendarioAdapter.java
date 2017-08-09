@@ -19,16 +19,11 @@ public class CalendarioAdapter extends BaseAdapter {
     private List<Evento> lista;
     private LayoutInflater inflater;
 
-
-
-
     public CalendarioAdapter(Context context, List<Evento> listaResult) {
         this.context = context;
         this.lista = listaResult;
         inflater = LayoutInflater.from(context);
     }
-
-
 
     @Override
     public int getCount() {
@@ -45,7 +40,6 @@ public class CalendarioAdapter extends BaseAdapter {
         return position;
     }
 
-
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
         final Evento dados = lista.get(position);
@@ -56,6 +50,7 @@ public class CalendarioAdapter extends BaseAdapter {
             itemSuporte = new ItemSuporte();
             itemSuporte.data = (TextView) convertView.findViewById(R.id.data_evento);
             itemSuporte.descricao = (TextView) convertView.findViewById(R.id.titulo_evento);
+
 
 
             convertView.setTag(itemSuporte);

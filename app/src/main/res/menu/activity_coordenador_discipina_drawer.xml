@@ -7,15 +7,15 @@
             android:icon="@drawable/ic_action_inicio"
             android:title="@string/Inicio" />
         <item
-            android:id="@+id/grupos_tccs_prof_coordenador"
+            android:id="@+id/projetos_tccs_prof_coordenador"
             android:icon="@drawable/ic_action_banca"
-            android:title="@string/grupos_tccs" />
+            android:title="@string/projetos_tccs" />
         <item
             android:id="@+id/turmas_prof_coordenador"
             android:icon="@drawable/ic_action_banca"
             android:title="@string/nome_turma" />
         <item
-            android:id="@+id/matricular_aluno_prof_coordenador"
+            android:id="@+id/incluir_participantes_prof_coordenador"
             android:icon="@drawable/ic_action_matricula"
             android:title="@string/matricular_aluno" />
         <item
