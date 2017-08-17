@@ -94,10 +94,23 @@ public class CadastrarSenha extends AppCompatActivity {
 
             }
         });
+        cancelar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
         setUpToolbar();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+    }
+
     protected void setUpToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if(toolbar != null){
@@ -153,7 +166,6 @@ public class CadastrarSenha extends AppCompatActivity {
                 urlConnection.disconnect();
                 return buffer.toString();
 
-
             } catch (Exception e) {
                 runOnUiThread(new Runnable(){
                     @Override
@@ -168,7 +180,6 @@ public class CadastrarSenha extends AppCompatActivity {
             }
             return null;
         }
-
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);

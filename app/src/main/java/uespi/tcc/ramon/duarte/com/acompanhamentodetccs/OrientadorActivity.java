@@ -48,14 +48,13 @@ import java.util.Locale;
 
 public class OrientadorActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
-    //WeekView calendar;
-    //CalendarView calendar;
     ActionBar actionBar;
     GregorianCalendar calendar;
     CompactCalendarView compactCalendarView;
+    CalendarioAdapter calendarioAdapter;
+
     ListView listViewCalanderio;
 
-    CalendarioAdapter calendarioAdapter;
     TextView nome,
              matricula;
 

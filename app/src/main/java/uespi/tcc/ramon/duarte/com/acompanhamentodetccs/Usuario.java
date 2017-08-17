@@ -31,6 +31,15 @@ public class Usuario{
         funcao,
         logado;
 
+    public Usuario(String nome, String email, String periodo, int matricula, int codCurso,int funcao) {
+        this.nome = nome;
+        this.email = email;
+        this.periodo = periodo;
+        this.matricula = matricula;
+        this.codCurso = codCurso;
+        this.funcao = funcao;
+    }
+
     public Usuario(String nome, String email, String periodo, int matricula, int codCurso) {
         this.nome = nome;
         this.email = email;

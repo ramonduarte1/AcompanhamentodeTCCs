@@ -46,9 +46,9 @@ public class AcessarSistema extends AppCompatActivity {
         esqueceuASenha = (TextView) findViewById(R.id.esqueceu_a_senha);
 
         //temporario
-        String requisicao = "matricula=" + 1049903 + "&senha=" + 12345 + "";
+       // String requisicao = "matricula=" + 1049903 + "&senha=" + 12345 + "";
 
-        new VerificaLogin().execute(requisicao);
+        //new VerificaLogin().execute(requisicao);
 
         //temporario
 
@@ -98,7 +98,7 @@ public class AcessarSistema extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AcessarSistema.this, CadastrarSenha.class));
-                finish();
+                //finish();
             }
         });
 

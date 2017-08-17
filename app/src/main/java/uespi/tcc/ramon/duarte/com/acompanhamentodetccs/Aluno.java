@@ -5,8 +5,8 @@ package uespi.tcc.ramon.duarte.com.acompanhamentodetccs;
  */
 
 public class Aluno extends Usuario {
-    public Aluno(String nome, String email, String periodo, int matricula, int codCurso) {
-        super(nome, email, periodo, matricula, codCurso);
+    public Aluno(String nome, String email, String periodo, int matricula, int codCurso,int funcao) {
+        super(nome, email, periodo, matricula, codCurso,funcao);
     }
 
     public Aluno(int matricula, String nome, String email, int funcao, String senha, int codCurso, int logado) {
